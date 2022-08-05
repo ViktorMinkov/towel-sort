@@ -2,8 +2,7 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  let result = [];
-  console.log(matrix)
+  let result = [];  
  
   if (matrix === [] || matrix === undefined) {
     return [];
@@ -18,8 +17,7 @@ module.exports = function towelSort (matrix) {
         }
         result.push(matrix[i][columnIndex])
     }
-  }
-  console.log(result)
+  }  
 
   return result;
 }
